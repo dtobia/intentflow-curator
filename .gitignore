@@ -1,0 +1,53 @@
+# Entorno virtual
+.venv/
+env/
+ENV/
+venv/
+null/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+*.log
+
+# Archivos temporales y de sistema
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.bak
+*.tmp
+
+# Archivos de configuración local
+.env
+.env.*
+
+# Archivos de Streamlit
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# Archivos de Jupyter (si usás notebooks)
+.ipynb_checkpoints/
+
+# Archivos de build o instalación
+build/
+dist/
+*.tar.gz
+*.whl
+
+# Archivos de Docker
+**/__pycache__/
+.dockerignore
+docker-compose.override.yml
+
+# Excluir YAML generados (si no querés subirlos)
+# flow_CURADO.yaml
+# *.xlsx
